@@ -48,14 +48,15 @@
               class="mr-3 h-6 sm:h-9"
               alt="Flowbite Logo"
             />
-            <span class="self-center text-xl font-semibold whitespace-nowrap"
+            <span
+              class="self-center text-xl font-semibold whitespace-nowrap"
               >EdTech</span
             >
           </a>
           <div class="flex md:order-2">
             <button
               type="button"
-              class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-3 md:mr-0"
+              class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-3 md:mr-0 "
             >
               Register
             </button>
@@ -130,5 +131,117 @@
         </div>
       </nav>
     </header>
+    <main>
+      <!-- slider start -->
+      <section class="mt-12">
+        <div class="container mx-auto mt-20">
+          <div id="controls-carousel" class="relative" data-carousel="static">
+            <!-- Carousel wrapper -->
+            <div
+              class="overflow-hidden flex relative h-[262px] rounded-lg md:h-[400px] lg:h-[700px]"
+            >
+              <!-- Item 1 -->
+                <div
+                    class="duration-700 ease-in-out absolute inset-0 transition-all transform -translate-x-full"
+                    data-carousel-item="lg:active"
+                >
+                <div class="filter brightness-50">
+                    <img
+                    src="images/cover/cover-1.png"
+                    class="block w-full h-full object-cover"
+                    alt="..."
+                    />
+                </div>
+                </div>
+                <div class="flex flex-col items-center justify-center mx-auto my-auto z-40 w-1/2 space-y-4">
+                    <h2 class="text-xl md:text-4xl lg:text-6xl text-white font-bold text-center ">Get Started Digital Learning</h3>
+                    <p class="text-xs md:text-sm lg:text-xl text-white text-center">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+                    <button type="button" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 focus:outline-none">Get Started</button>
+                </div> 
+              <!-- Item 2 -->
+              <div
+                class="duration-700 ease-in-out absolute inset-0 transition-all transform translate-x-0 z-20"
+                data-carousel-item="active"
+              >
+              <div class="filter brightness-50">
+                  <img
+                    src="images/cover/cover-2.jpg"
+                    class="block w-full h-full object-cover"
+                    alt="..."
+                  />
+              </div>
+              </div>
+              <!-- Item 3 -->
+              <div
+                class="duration-700 ease-in-out absolute inset-0 transition-all transform translate-x-full z-10"
+                data-carousel-item=""
+              >
+              <div class="filter brightness-50">
+                <img
+                  src="images/cover/cover-3.jpg"
+                  class="block w-full h-full object-cover"
+                  alt="..."
+                />
+              </div>
+              </div>
+            </div>
+            <!-- Slider controls -->
+            <button
+              type="button"
+              class="flex absolute top-0 left-0 z-30 justify-center items-center px-4 h-full cursor-pointer group focus:outline-none"
+              data-carousel-prev=""
+            >
+              <span
+                class="inline-flex justify-center items-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="w-6 h-6 text-white dark:text-gray-800"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M15 19l-7-7 7-7"
+                  ></path>
+                </svg>
+                <span class="sr-only">Previous</span>
+              </span>
+            </button>
+            <button
+              type="button"
+              class="flex absolute top-0 right-0 z-30 justify-center items-center px-4 h-full cursor-pointer group focus:outline-none"
+              data-carousel-next=""
+            >
+              <span
+                class="inline-flex justify-center items-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="w-6 h-6 text-white dark:text-gray-800"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M9 5l7 7-7 7"
+                  ></path>
+                </svg>
+                <span class="sr-only">Next</span>
+              </span>
+            </button>
+          </div>
+        </div>
+      </section>
+      <!-- slider end -->
+    </main>
   </body>
 </html>
